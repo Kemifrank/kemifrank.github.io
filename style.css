@@ -3,3 +3,13 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body {
+  background: #e5e5e5;
+}
+
+a:hover {
+  background: #a3c4f3;
+  color: #bb3e03;
+  border-radius: 10px;
+}
