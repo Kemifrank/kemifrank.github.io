@@ -5,32 +5,67 @@
 }
 
 body {
-  background: hsla(180, 8%, 87%, 1) 37%;
-  width: 100vw;
-  height: 100vh;
+  background: #edeee8;
 }
 
 a:hover {
-  background: #a3c4f3;
-  color: #bb3e03;
+  background: #bb3e03;
   border-radius: 10px;
 }
 
 .row {
   display: flex;
-  gap: 1;
+  width: 95%;
+  margin: auto;
+  margin-top: 3rem;
 }
 .column {
   padding: 1rem;
   flex: 1;
+  width: 90%;
 }
 
 img {
-  width: 450px;
-  height: 100vh;
-  /* border: 1px solid red; */
-  border-radius: 58px;
+  width: 300px;
+  height: 300px;
+  margin-left: 4rem;
+  border: 1px solid #4fab79;
+  border-radius: 50%;
+  padding: 3px 10px;
 }
 
+.first {
+  /* width: 200px; */
+  margin-left: 4rem;
+  color: hsla(335, 6%, 58%, 1) 0%;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 15px;
+  font-style: initial;
+  border-radius: 20px;
+  text-align: left;
+  margin-top: 4rem;
+  /* box-shadow: 5px 5px 10px #4fab79, -5px -5px 10px #4fab79; */
+}
+
+.link a {
+  padding: 12px 12px;
+  text-decoration: none;
+  background: #edeee8;
+  color: #593629;
+  border-radius: 10px;
+  font-size: 15px;
+  margin-left: 15px;
+  margin-top: 0;
+  box-shadow: 5px 5px 10px #4fab79, -5px -5px 10px #4fab79;
+}
+span {
+  color: #4fab79;
+  font-weight: bolder;
+}
+
+.link a:hover {
+  background: #bb3e03;
+  border-radius: 10px;
+}
 @media only screen and (max-width: 764px) {
 }
