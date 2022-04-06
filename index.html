@@ -11,8 +11,8 @@
       crossorigin="anonymous"
     />
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap');
-      </style>
+      @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap");
+    </style>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
@@ -22,7 +22,7 @@
     <title>Porfolio</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Porfolio</a>
         <button
@@ -45,7 +45,7 @@
               <a
                 class="nav-link active"
                 aria-current="page"
-                href="#"
+                href="#home"
                 style="color: #4fab79; font-weight: bolder"
                 >Home</a
               >
@@ -54,7 +54,7 @@
               <a
                 class="nav-link"
                 aria-current="page"
-                href="about.html"
+                href="#about"
                 style="color: #4fab79; font-weight: bolder"
                 >About</a
               >
@@ -62,13 +62,13 @@
             <li class="nav-item">
               <a
                 class="nav-link"
-                href="#"
+                href="#services"
                 style="color: #4fab79; font-weight: bolder"
                 >Services</a
               >
             </li>
             <li class="nav-item">
-              <a
+              <a 
                 class="nav-link"
                 href="#"
                 style="color: #4fab79; font-weight: bolder"
@@ -88,11 +88,11 @@
       </div>
     </nav>
 
-    <section id="Home">
+    <section id="home">
       <div class="row">
         <div class="first column">
           <h1>Hi....</h1>
-          <h2> <span>I'm Ikemesit Frank</span></h2>
+          <h2><span>I'm Ikemesit Frank</span></h2>
           <h4>A Passionate Front End Developer</h4>
           <p>
             Pursuing a role as a front-end developer with a passion for creating
@@ -100,20 +100,91 @@
           </p>
 
           <div class="link column">
-            <a href="about.html">About Me</a>
+            <a href="#about">About Me</a>
             <a href="">Hire Me</a>
           </div>
         </div>
         <div class="column">
-          <img src="img/kemi.png" alt="">
+          <img src="img/kemi.png" alt="" />
         </div>
-
       </div>
     </section>
 
-    <sectio id="about">
-      <p></p>
+    <section id="about">
+      <div class="row">
+        <div class="skills column">
+          <h3><span>Professional Skills</span></h3>
+          <div class="box">
+            <p>HTML</p>
+            <div class="progress"> 
+              <div class="progress-bar">
+                <span>80%</span>
+              </div>
+            </div>
+            <p>CSS</p>
+            <div class="progress">
+              <div class="progress-bar">
+                <span>60%</span>
+              </div>
+            </div>
+            <p>Bootstrap</p>
+            <div class="progress">
+              <div class="progress-bar">
+                <span>70%</span>
+              </div>
+            </div>
+            <p>JavaScript</p>
+            <div class="progress">
+              <div class="progress-bar">
+                <span>50%</span>
+              </div>
+            </div>
+          
+          </div>
+          
+          
+          
+            
+          
+          
+          
+        </div>
+        
+        <div class="about column">
+          <h1> <span> I am Ikemesit Frank…</span></h1>
+          <p>
+            A graduate of mass communication with experience in online and
+            physical reportage, I worked with a tv station for a year and then
+            started building my own community online and doing promotions for a
+            certain marketing company, I went into marketing because I love
+            solving low sales problems, after doing this for sometimes I decide
+            to learn more skills to help me solve more problems, and front end
+            development was the first thing that came to my mind because with
+            basic technology skills I can advancely solve marketing problems. 
+
+            <hr>
+            
+            I have learned HTML, CSS, Bootstrap, and JavaScript, I have done
+            certain projects which you can go on to check on my GitHub <a href="https://github.com/Kemifrank/Kemifrank">https://github.com/Kemifrank/Kemifrank</a>
+            Recently, I started learning about open-source project where I contributed
+            to a project on GitHub check the attached link.
+            
+            <hr>
+            
+            I am socially
+            assertive, very teachable, and open to learning. having me on your
+            team will be an added advantage to your company.
+          </p>
+        </div>
+      </div>
     </section>
+    <section id="services">
+      <div class="row">
+        <div class="column">
+        </div>
+      </div>
+    </section>
+
 
     <script src="main.js"></script>
   </body>
