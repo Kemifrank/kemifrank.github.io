@@ -39,14 +39,6 @@ img {
   border-radius: 60%;
   padding: 3px 10px;
 }
-.image img {
-  width: 300px;
-  height: 300px;
-  margin-left: 4rem;
-  /* border: 1px solid #4fab79; */
-  border-radius: 60%;
-  padding: 3px 10px;
-}
 
 .first {
   /* width: 200px; */
@@ -100,7 +92,7 @@ hr {
 
 .box {
   width: 80%;
-  height: 10px;
+  height: 300px;
   font-family: "Red Hat Display", sans-serif;
   border-radius: 10px;
 }
@@ -129,5 +121,31 @@ hr {
   right: 0%;
 }
 
-@media only screen and (max-width: 764px) {
+@media all and (max-width: 500px) {
+  .row {
+    width: 100%;
+    display: block;
+  }
+  .first {
+    width: 100%;
+  }
+  img {
+    margin-top: 0;
+    border-left: 5px solid #4fab79;
+    border-right: 0;
+    border-top: 5px solid #4fab79;
+    border-bottom: 0;
+    border-radius: 0;
+  }
+  .link a {
+    display: block;
+    margin: 10px 10px;
+  }
+  .box {
+    width: 100%;
+    /* background: red; */
+  }
+  .about {
+    display: inline;
+  }
 }
