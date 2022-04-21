@@ -24,7 +24,11 @@ a:hover {
   background: #4fab79;
   color: #fff;
 }
-#home {
+
+/* #home .row{
+  margin-top: 60em;
+} */
+/* #home {
   height: 100vh;
   border: 0.5px solid #edeee8;
 }
@@ -39,7 +43,7 @@ a:hover {
 #contact {
   height: 100vh;
   border: 0.5px solid #edeee8;
-}
+} */
 
 #services .col-sm {
   border: 1px solid #4fab79;
@@ -69,54 +73,79 @@ hr {
   color: #4fab79;
 }
 
-@media screen and (min-width: 280px) {
-  .container {
-    display: flex;
-    flex-shrink: inherit;
-  }
-  #home {
-    width: 100%;
-    margin-bottom: 6rem;
-  }
-  .col-lg-5 img {
-    border-top: 2px solid red;
-  }
-  #about {
-    margin-bottom: 14rem;
-    width: 100%;
-  }
-  #sevices {
-    margin-top: 13rem;
-    width: 100%;
-  }
-  #contact {
-    margin-top: 13rem;
-    width: 100%;
-  }
+img {
+  width: 350px;
+  height: 350px;
+  background-attachment: fixed;
+  border-radius: 50%;
+  border: 1px solid #4fab79;
 }
 
-@media screen and (max-width: 1500px) {
-  #home {
-    width: 100%;
-    height: 50vh;
-    margin-bottom: 6rem;
-  }
-  .col-lg-5 img {
-    border-top: 2px solid red;
+@media (min-width: 280px) {
+  /* .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  } */
+#home .row {
+  margin-top: 5px;
+  font-size: 20px;
+  width: 80vw;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+img {
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
+  border-top: 6px solid #4fab79;
+  border-left: 6px solid #4fab79;
+  border-right: 0px;
+  border-bottom: 0px;
+  margin-top: 0px;
+}
+
+#about {
+  width: 100vw;
+  height: 100vh;
+  margin-top: 10rem;
+  margin-bottom: 18em;
+  width: 100%;
+}
+#sevices {
+  margin-top: 50rem;
+  margin-bottom: 20rem;
+  width: 100vw;
+  height: 100vh;
+}
+#contact {
+  margin-top: 3rem;
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  #home .row {
+    margin-top: 5px;
+    align-items: center;
+    margin: auto;
+    font-size: 20px;
+    width: 80vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    /* background-color: red; */
   }
 
-  #about {
-    width: 100%;
-    height: 50vh;
-  }
-
-  #sevices {
-    width: 100%;
-    height: 50vh;
-  }
-
-  #contact {
-    width: 100%;
-    height: 50vh;
+  #about .row {
+    margin-top: 5px;
+    font-size: 20px;
+    width: 80vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
   }
 }
