@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Merriweather:400,400i,700");
+@import url('https://fonts.googleapis.com/css?family=roborto:400,400i,700');
 
 * {
   border: 0;
@@ -8,10 +8,11 @@
 
 body {
   background: #edeee8;
+  font-family: 'Roborto', sans-serif;
 }
 
 a {
-  font-family: "Red Hat Display", sans-serif;
+  font-family: 'Roborto', sans-serif;
 }
 a:hover {
   background: #edeee8;
@@ -50,7 +51,7 @@ a:hover {
 
 #services .col-sm {
   border: 1px solid #4fab79;
-  font-family: "Red Hat Display", sans-serif;
+  font-family: 'Roborto', sans-serif;
   border-radius: 10px;
   /* margin-left: 20px; */
   box-shadow: -7px -7px 20px 0px #fff, -4px -4px 5px 0px #fff,
